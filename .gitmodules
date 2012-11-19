@@ -13,3 +13,6 @@
 [submodule "modules/twig"]
 	path = modules/twig
 	url = git@github.com:nichcurtis/KO3-Twig.git
+[submodule "modules/deputy"]
+	path = modules/deputy
+	url = git@github.com:nichcurtis/kohana-deputy.git

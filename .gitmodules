@@ -1,0 +1,15 @@
+[submodule "modules/tophat-core"]
+	path = modules/tophat-core
+	url = git@github.com:YouCall/TopHat-Core.git
+[submodule "modules/tophat-coms"]
+	path = modules/tophat-coms
+	url = git@github.com:YouCall/TopHat-Coms.git
+[submodule "modules/nosql"]
+	path = modules/nosql
+	url = git@github.com:nichcurtis/KO3-NoSQL.git
+[submodule "modules/logging"]
+	path = modules/logging
+	url = git@github.com:YouCall/KO3-Logging.git
+[submodule "modules/twig"]
+	path = modules/twig
+	url = git@github.com:nichcurtis/KO3-Twig.git

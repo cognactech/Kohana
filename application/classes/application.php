@@ -47,7 +47,7 @@ abstract class Application extends Controller
 
 		// check to see if user has full access to controller
 		$allowed = $this->Deputy->allowed($this->request->controller());
-		
+
 		if ($allowed !== TRUE)
 		{
 			// check again to see if they have access to current action
@@ -90,7 +90,9 @@ abstract class Application extends Controller
 			$format = TRUE;
 		}
 
-		$this->template->format($format);
+		if ( method_exists('format', $this->template)) {
+			$this->template->format($format);
+		}
 
 		parent::after();
 	}

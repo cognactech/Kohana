@@ -25,9 +25,6 @@ class Kohana_HTTP_Exception extends Kohana_Exception {
 			$code = $this->_code;
 		}
 
-		if ( ! isset(Response::$messages[$code]))
-			throw new Kohana_Exception('Unrecognized HTTP status code: :code . Only valid HTTP status codes are acceptable, see RFC 2616.', array(':code' => $code));
-
 		parent::__construct($message, $variables, $code);
 	}
 

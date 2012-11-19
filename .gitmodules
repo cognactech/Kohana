@@ -16,3 +16,6 @@
 [submodule "modules/deputy"]
 	path = modules/deputy
 	url = git@github.com:nichcurtis/kohana-deputy.git
+[submodule "modules/database"]
+	path = modules/database
+	url = git@github.com:nichcurtis/database.git
